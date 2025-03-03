@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "card-dest-info":"/components/dest-info/dest-info",
+    "ant-icon":"/node_modules/antd-mini/es/Icon/index"
+  }
+  
+
+  
+    
+    
+      
+    
+ 
+}

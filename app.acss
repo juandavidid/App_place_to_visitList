@@ -1,0 +1,27 @@
+page {
+  flex: 1;
+  display: flex;
+  background: #f7f7f7;
+
+  
+  
+
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("/assets/fonts/Poppins-Medium.ttf") format("opentype"),
+  
+
+}
+
+@font-face{
+  font-family: "Montserrat-Regular";
+  src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf") format("opentype")
+}
+
+@font-face{
+  font-family: "BeViethamPro-Bold";
+  src: url("/assets/fonts/BeVietnamPro-Bold.ttf") format("opentype")
+}
+

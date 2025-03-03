@@ -1,0 +1,93 @@
+.header{
+  position: fixed;
+  width: 100vw;
+  height:100px;
+  background-color: #F5F5F5;
+  top:0;
+  z-index:3 /*Da mayor priorida al contenido*/;
+  border-bottom:2px solid #D3D3D3;
+
+}
+
+.input-Buscador{
+  border: 2px solid #D3D3D3;
+  margin-top: 5px;
+  margin-left: 57px;
+  border-radius: 16px;
+  height: 45px;
+  width:217px;
+
+  padding-left: 72px;
+  
+}
+input::placeholder{
+  color: black;
+}
+
+
+
+
+
+
+/*---------Estilos del Footer---------------*/
+
+.footer{
+  position: fixed;
+  width: 100vw;
+  height:83px;
+  background-color: rgb(151, 151, 83);
+  bottom: 0;
+  z-index:3 /*Da mayor priorida al contenido*/;
+  background-color: #F5F5F5;
+  border-top:2px solid #D3D3D3;
+}
+
+.container-iconos{
+  height:50px;
+  display:flex;
+  justify-content: center;
+  padding-top: 8px;
+  gap:59px;
+  font-size: 26px;
+  position: relative;
+
+}
+
+.text-Explora,.text-Favorito,.text-Viaje,.text-Perfil{
+  font-size: 12px;
+  font-family: "Montserrat-Regular",sans-serif;
+  font-weight: 600;
+  
+}
+.text-Explora{
+  position: absolute;
+  left: 50px;
+  top:40px;
+}
+
+.text-Favorito{
+  position: absolute;
+  top:40px;
+  left:133px;
+}
+
+.text-Viaje{
+  position: absolute;
+  top:40px;
+  right:139px;
+}
+
+.text-Perfil{
+  position: absolute;
+  right: 55px;
+  top:40px;
+}
+/*---------------------------------------------------*/
+
+
+/*Estilo para el desplazamiento scroll*/
+.scrollable-container {
+  margin-top: 100px; /* Ajuste para que no tape la caja superior */
+  margin-bottom: 50px; /* Ajuste para que no tape la caja inferior */
+  margin-left:16px;
+}

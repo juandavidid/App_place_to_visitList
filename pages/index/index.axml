@@ -1,0 +1,39 @@
+<view>
+  <!--Header-->
+  <view class="header">
+
+    <input type="text" class="input-Buscador"  placeholder="Empieza la busqueda"  />
+    
+  </view>
+  <!--Elemento axml gesto deslizamiento tipo scroll-->
+  <scroll-view class="scrollable-container" scroll-y="{{true}}" onScroll="scroll">
+   <!--Componente- Informacion del destino-->
+   <card-dest-info></card-dest-info>
+  </scroll-view>
+  <!--foooter-parte inferior-->
+  <view class="footer">
+
+    <!--Container iconos-->
+    <view class="container-iconos">
+      <ant-icon type="SearchOutline" style="color:#C70039"></ant-icon>
+      <text class="text-Explora" style="color:#C70039">Explora</text>
+
+      <ant-icon type="HeartOutline" style="color:#787171"></ant-icon>
+      <text class="text-Favorito" style="color:#6c6a6a">Favorito</text>
+
+      <ant-icon type="LocationOutline" style="color:#787171"></ant-icon>
+      <text class="text-Viaje" style="color:#6c6a6a">Viaje</text>
+
+      
+
+      <navigator url="/pages/Enter_destination/Enter_destination">
+        <ant-icon type="UserCircleOutline" style="color:#787171"></ant-icon>
+        <text class="text-Perfil" style="color:#6c6a6a">Perfil</text>
+      </navigator>
+      
+  
+    </view>
+    
+  </view>
+
+</view>

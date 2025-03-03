@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Enter_destination/Enter_destination"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  }
+}

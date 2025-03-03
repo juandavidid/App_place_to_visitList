@@ -1,0 +1,46 @@
+/* tarjeta con informacion - dimensiones */
+.card-prueba{
+  width:350px;
+  height:350px;
+  background-color: #DCDCDC;
+  margin-top:13px;
+  border-radius: 8px;
+  
+}
+
+/* Estilo a la imagen- bordes*/
+.image-dest{
+  border-radius: 8px;
+}
+
+.description-dest{
+  font-family: "Poppins-Medium", sans-serif;
+  padding: 8px 8px 0px 8px;
+  
+}
+
+/*Estilo para scroll de imagenes dentro de las tarjetas*/
+.scroll-container{
+  
+  white-space: nowrap; /* El contenido se ajusta en varias líneas */
+  overflow: hidden; /* Oculta el contenido que se desborda */
+}
+
+.slide{
+  /*border: 1px solid red;*/
+  display:inline-block;
+  width: 350px;
+  height: 250px;
+}
+.image{
+  width: 100%;
+  height: 252px;
+  object-fit: cover; /*la imagen se ajusta a las dimensiciones del contenedor*/
+  border-radius: 8px;
+  
+}
+/*-------------------------------------------------------*/
+
+
+
+

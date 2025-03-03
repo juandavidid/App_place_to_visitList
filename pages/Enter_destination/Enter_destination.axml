@@ -1,0 +1,42 @@
+<view>
+  <view class="cont-text">
+    <text class="text-letra">J</text>
+  </view>
+
+ 
+  
+  
+
+   <!--formularion ingresar destino-->
+  <form onSubmit="formSubmit" onReset="formReset">
+    <view class="container-Inputs">
+      <label>Ciudad</label>
+      <input data-name="ciudad" onInput="onInputData" />
+
+      <label>Pais</label>
+      <input data-name="pais"  onInput="onInputData"  />
+
+      <label>Descripcion</label>
+      <textarea data-name="descripcion"   onInput="onInputData" ></textarea>
+
+      <!--Subir Imagen-->
+      <label class="label-Image">Imagen</label>
+      <button class="btn-img" size="default" type="primary" onTap="handleFile"> <ant-icon type="CameraOutline" ></ant-icon>Agregar</button>
+      
+      
+      <view class="cont-btnlisto">
+        <navigator url="/pages/index/index">
+          <button class="btn-listo" size="default" type="primary" form-type="submit">Listo</button>
+        </navigator>
+      </view>
+    </view> 
+
+  </form>
+      
+  
+    
+
+   
+
+
+</view>
