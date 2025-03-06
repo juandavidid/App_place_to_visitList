@@ -1,10 +1,11 @@
-<view a:for="{{ arrayCard }}" a:for-item="item">
-   
-  <view class="card-prueba">
+<view a:for="{{ arrayCard }}" a:for-item="item" a:key="key">
+
+  <view class="card-prueba" onTap="openModalClick" data-value="{{item.ciudad}}">
     <!--Scroll desplazmiento de imagen en la tarjeta-->
     <scroll-view scroll-x="{{true}}" scroll-left="{{scrollLeft}}" class="scroll-container">
 
       <view a:if="{{ true }}">
+
         <view class="slide"  a:for="{{item.imagenes}}" a:for-item="item" a:key="key">
           <!--Imagenes-->
           <image class="image"  src={{item}} onLoad="imageLoad"/>
@@ -30,6 +31,60 @@
      <ant-icon type="StarFill"  style="font-size:13px; position:absolute; top:12px; right:30px"></ant-icon>
      <text style="position:absolute; top:8px; right:0px">4.81</text>
     </view>
+
+
+    
+    
+    
   </view>
+
+  <!--Ventana Modal-->
+  <view a:if="{{ modalOpened }}" data-value="{{}}" class="modal-container">
+    
+    <view onTap="onModalClose" class="modal-description">
+      
+
+      <scroll-view scroll-x="{{true}}" scroll-left="{{scrollLeft}}" class="scroll-container">
+
+        <view a:if="{{ true }}">
+  
+          <view class="slide"  a:for="{{imagDescription}}" a:for-item="itemImag" a:key="key">
+            <!--Imagenes-->
+            <image class="image"  src={{itemImag}} onLoad="imageLoad"/>
+          </view>
+        </view>
+        
+      </scroll-view>
+
+      <view class="city-dest">
+        <text >{{cityDescription}}</text>
+        
+      </view>
+
+    
+
+      <view class="text-Des">
+        <text >{{description}}</text>
+      </view>
+
+      
+
+
+      
+
+      <view class="btn-description-dest">
+        <!--Boton Elimina los Destinos-->
+        <button class="btn-remove btn-remove-des" size="default" type="primary" data-value="{{item.ciudad}}"  onTap="onBtnRemove">Eliminar</button>
+        <button class="btn-visitar" size="default" type="primary">VISITAR</button>
+      </view>
+
+    </view>
+
+   
+    
+  </view>
+
+  
+ 
 </view>
 

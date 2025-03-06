@@ -2,7 +2,7 @@
   <!--Header-->
   <view class="header">
 
-    <input type="text" class="input-Buscador"  placeholder="Empieza la busqueda"  />
+    <input type="text" class="input-Buscador"  placeholder="Empieza la busqueda" placeholder-style="color:black" />
     
   </view>
   <!--Elemento axml gesto deslizamiento tipo scroll-->
@@ -27,13 +27,12 @@
       
 
       <navigator url="/pages/Enter_destination/Enter_destination">
-        <ant-icon type="UserCircleOutline" style="color:#787171"></ant-icon>
-        <text class="text-Perfil" style="color:#6c6a6a">Perfil</text>
+        <ant-icon type="AddCircleOutline" style="color:#787171"></ant-icon>
+        <text class="text-Perfil" style="color:#6c6a6a">Agregar</text>
       </navigator>
       
   
     </view>
     
   </view>
-
 </view>

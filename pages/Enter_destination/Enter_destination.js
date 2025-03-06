@@ -48,6 +48,12 @@ Page({
       [name]: value, // Actualiza la propiedad correspondiente en el estado
     });
 
+
+    
+
+
+
+
   },
   onLoad( ) {
 

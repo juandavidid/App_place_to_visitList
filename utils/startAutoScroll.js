@@ -1,15 +1,7 @@
 
-// Importar imagenes- dentro un array
-let arrayImage =[
-  require('/img_pruebas/destino_Medellin/image_1.jpg'),
-  require('/img_pruebas/destino_Medellin/imagen_2.jpg'),
-  require('/img_pruebas/destino_Medellin/imagen_3.jpg'),
-];
+// Espacios de Imagenes 
+let arrayImage =['1','2','3'];
 export { arrayImage};
-
-
-
-
 
 // Function scroll
 let scrollLeft = 0;

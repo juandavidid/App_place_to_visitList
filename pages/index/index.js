@@ -10,6 +10,8 @@ Page({
 
   onLoad(query) {
     // Page load
+    const caliData = my.getStorageSync({ Key: "Bogota" });
+    console.log(caliData);
     
 },
   onReady() {

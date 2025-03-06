@@ -3,7 +3,9 @@
   "styleIsolation": "apply-shared",
 
   "usingComponents": {
-    "ant-icon":"/node_modules/antd-mini/es/Icon/index"
+    "ant-icon":"/node_modules/antd-mini/es/Icon/index",
+    "modal": "mini-antui/es/modal/index",
+    "ant-modal":"/node_modules/antd-mini/es/Modal/index"
   }
 
 }

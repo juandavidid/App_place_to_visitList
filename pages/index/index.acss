@@ -21,7 +21,7 @@
   
 }
 input::placeholder{
-  color: black;
+  color: rgb(180, 43, 43);
 }
 
 
@@ -79,7 +79,7 @@ input::placeholder{
 
 .text-Perfil{
   position: absolute;
-  right: 55px;
+  right: 50px;
   top:40px;
 }
 /*---------------------------------------------------*/
